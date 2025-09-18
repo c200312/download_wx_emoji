@@ -16,4 +16,4 @@ venv/
 *.log
 *.tmp
 msedgedriver.exe
-
+.idea
