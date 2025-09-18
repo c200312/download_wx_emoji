@@ -20,13 +20,10 @@
 
 
 ```bash
-git clone https://github.com/你的用户名/wx_emoji_downloader.git
+git clone https://github.com/c200312/wx_emoji_downloader.git
 cd wx_emoji_downloader
-uv venv
-.venv\Scripts\activate
-uv python pin 3.10
-uv pip install -r requirements.txt
-python download_img.py
+uv sync
+uv run python download_img.py
 ```
 
 
