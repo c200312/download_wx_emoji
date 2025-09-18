@@ -10,6 +10,7 @@ __pycache__/
 .venv/
 env/
 venv/
+.python-version
 
 # Selenium downloaded drivers or temp
 *.log
