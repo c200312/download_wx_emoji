@@ -20,10 +20,10 @@
 
 
 ```bash
-git clone https://github.com/c200312/wx_emoji_downloader.git
+git clone --depth 1 https://github.com/c200312/wx_emoji_downloader.git
 cd wx_emoji_downloader
 uv sync
-uv run python download_img.py
+uv run download_img.py
 ```
 
 
